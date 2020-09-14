@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-/*Variables CSS*/
+/*variables CSS*/
 :root {
   --menu: #4a4a4a;
   --fondo: #3cdbc0;
@@ -14,7 +14,7 @@
   --color: white;
 }
 
-/*Header*/
+/*header*/
 
 .header {
   background: var(--color);
@@ -38,6 +38,7 @@
   font-family: "Rubik", sans-serif;
   display: flex;
   flex-direction: row;
+  font-size: 16px;
 }
 
 .link {
@@ -61,3 +62,24 @@ body {
 }
 
 /*section*/
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  color: var(--texto);
+  font-family: "Rubik", sans-serif;
+  font-style: bold;
+}
+
+.title-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
