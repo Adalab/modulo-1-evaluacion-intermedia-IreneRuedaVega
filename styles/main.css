@@ -49,6 +49,7 @@
 .icon-adalab {
   background-size: 155px;
   margin-top: 10px;
+  justify-content: center;
 }
 
 .contact {
@@ -61,7 +62,7 @@ body {
   background: var(--fondo);
 }
 
-/*section*/
+/*section1*/
 
 .section1 {
   display: flex;
@@ -81,5 +82,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 5px;
+  transform: translate(0px, -100px);
+}
+
+/*Version Tablet*/
+
+@media and all (min-width: 768px) {
 }
