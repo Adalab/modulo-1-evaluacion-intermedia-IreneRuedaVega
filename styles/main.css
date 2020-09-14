@@ -74,7 +74,6 @@ body {
 .title {
   color: var(--texto);
   font-family: "Rubik", sans-serif;
-  font-style: bold;
 }
 
 .title-inner {
@@ -102,4 +101,17 @@ body {
   .list {
     margin: 40px 30px 30px 0px;
   }
+
+  /*section1*/
+
+  .title {
+    font-size: 40px;
+  }
+
+  .title-inner {
+    transform: translate(0px, 10px);
+  }
+}
+
+@media all and (min-width: 1200px) {
 }
