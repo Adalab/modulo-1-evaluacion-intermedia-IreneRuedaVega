@@ -1,5 +1,53 @@
+/*reset*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/*Variables CSS*/
 :root {
   --menu: #4a4a4a;
   --fondo: #3cdbc0;
   --texto: #ffffff;
+  --color: white;
 }
+
+/*Header*/
+
+.header {
+  background: var(--color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 13px 0;
+  width: 100vw;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.list-item {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--menu);
+}
+
+/*body*/
+
+body {
+  background: var(--fondo);
+}
+
+/*section*/
