@@ -31,6 +31,7 @@
   flex-direction: row;
   padding: 10px;
   justify-content: space-around;
+  align-items: center;
 }
 
 .list-item {
@@ -42,6 +43,15 @@
 .link {
   text-decoration: none;
   color: var(--menu);
+}
+
+.icon-adalab {
+  background-size: 155px;
+  margin-top: 10px;
+}
+
+.contact {
+  padding: 0 0 0 20px;
 }
 
 /*body*/
