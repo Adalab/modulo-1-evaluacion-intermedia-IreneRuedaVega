@@ -1,3 +1,5 @@
-body {
-  background: red;
+:root {
+  --menu: #4a4a4a;
+  --fondo: #3cdbc0;
+  --texto: #ffffff;
 }
