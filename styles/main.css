@@ -61,6 +61,7 @@
 
 body {
   background: var(--fondo);
+  font-family: "Rubik", sans-serif;
 }
 
 /*section1*/
@@ -74,7 +75,6 @@ body {
 
 .title {
   color: var(--texto);
-  font-family: "Rubik", sans-serif;
 }
 
 .title-inner {
